@@ -1,0 +1,53 @@
+body {
+	overflow-x: hidden;
+	/*background-color: pink;*/
+  background-image: url(347.jpg); 
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-size: 100%;
+}
+
+.acc{
+	margin: 0 auto;
+	background-color: white;
+	box-shadow: 4px 6px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	width: 60%;
+	height: auto;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+
+}
+
+.photo{
+	background-color: black;
+	box-shadow: 4px 6px 7px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	width: 150px;
+	height: 200px;
+	margin-left: 50px;
+}
+
+.login{
+	font-size: 30px;
+	padding-top: -200px;
+	margin-top: -150px;
+	margin-left: 300px;
+}
+
+.zacladki{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.email{
+	font-size: 20px;
+	margin-left: 300px;
+}
+
+.out{
+	margin-top: 100px;
+	text-transform: lowercase;
+
+}

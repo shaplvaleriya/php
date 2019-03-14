@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<title>ArtBook</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="register.css" />
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-menu" viewBox="0 0 119 25">
+				<title>menu</title>
+				<path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z"/>
+			</symbol>
+			<symbol id="icon-close" viewBox="0 0 24 24">
+				<title>close</title>
+				<path d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"/>
+			</symbol>
+		</svg>
+		<main>
+			<div class="content" style="background-image: url(fon.jpg); background-size: cover;">
+				<div class="forma">
+
+						<form action="auth_in.php" method="post">
+							<h2>Авторизация</h2>
+							<input type="text" name="name" placeholder="Введите имя" required pattern="[A-Za-zА-Яа-яЁё ]{2,30}">
+							<br>
+							<input type="password" name="password" placeholder="Введите пароль">
+							<br>
+							<input type="submit" name="button" class="button" value="Войти">
+							<a href="reg.php"><br>Зарегистрироваться</a>
+						</form>
+
+			</div>
+			</div>
+		</main>
+		<script src="../js/imagesloaded.pkgd.min.js"></script>
+		<script src="../js/TweenMax.min.js"></script>
+		<script src="../js/demo.js"></script>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+.forma{
+	background-color: white;
+	box-shadow: 4px 6px 7px rgba(0,0,0,0.5);
+	display: flex;
+	width: 730px;
+	height: 450px;
+	margin: 0 auto;
+}
+
+
+.con{
+	display: none;
+}
+
+.con1{
+	display: none;
+}
+
+.con-open{
+	display: block;
+}
+
+.con1-open{
+	display: block;
+}
+
+
+input{
+	margin-bottom: 15px;
+	margin-left: 20px;
+	width: 260px;
+	height: 30px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #3f776e;
+	padding-left: 20px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	background: none;
+}
+
+input[type="submit"]{
+	font-size: 20px;
+	background-color: #3f776e;
+	height: 50px;
+	width: 230px;
+	padding-left: 0;
+	border: none;
+	box-shadow: 3px 5px 6px rgba(0,0,0,0.5);
+	margin-left: 5px;
+}
+
+/*input[type="submit"]:hover{
+	background-color: #3f776e;
+	color: #cce2d8;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;;
+	-o-transition: all 0.5s ease;;
+	transition: all 0.5s ease;
+}*/
+
+.lpart{
+	width: 40%;
+	background-image: url(../img/reg.jpg);
+	background-size: contain;
+}
+
+@font-face {
+     font-family: GothamPro-Light; /* Имя шрифта */
+    src: url('../css/GothamPro-Light.ttf'); /* Путь к файлу со шрифтом */
+   }
+
+   @font-face {
+    font-family: GothamPro-MediumItalic; /* Имя шрифта */
+    src: url('../css/GothamPro-MediumItalic.ttf'); /* Путь к файлу со шрифтом */
+ }
+
+h2{
+	color: white;
+	text-align: center;
+	font-family: GothamPro-MediumItalic;
+	font-size: 30px;
+}
+
+p{
+	padding-left: 5%;
+	color: white;	
+	font-family: GothamPro-Light;
+}
+
+.rpart{
+	background-color: #e5e6e1;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10% 10%;
+
+}
+
+.txt{
+	color: #3f776e;
+	margin: 0;
+}
+
+
+.logo1{
+	/*margin-top: -160px;*/
+	/*margin-left: 880px;*/
+margin-top: 65%;
+margin-left: 33%;
+	height: 100%;
+	width: 100%;
+	z-index: 100;
+	color: white;
+}
+
+.logo1 span:nth-child(1){
+	font-size: 20px;
+	font-family: Papyrus;
+}
+
+.logo1 span:nth-child(2){
+
+	font-size: 15px;
+	font-family: Zing Sans Rust Light Demo;
+}

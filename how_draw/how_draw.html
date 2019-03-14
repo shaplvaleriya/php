@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<title>ArtBook</title>
+		    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+		<link rel="stylesheet" type="text/css" href="base1.css" />
+		<link rel="stylesheet" type="text/css" href="../css/lesson.css" />
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-menu" viewBox="0 0 119 25">
+				<title>menu</title>
+				<path d="M36,8 L36,0 L100,0 L100,8 L36,8 Z M0,8 L0,0 L24,0 L24,8 L0,8 Z M0,28 L0,20 L71,20 L71,28 L0,28 Z"/>
+			</symbol>
+			<symbol id="icon-close" viewBox="0 0 24 24">
+				<title>close</title>
+				<path d="M24 1.485L22.515 0 12 10.515 1.485 0 0 1.485 10.515 12 0 22.515 1.485 24 12 13.484 22.515 24 24 22.515 13.484 12z"/>
+			</symbol>
+		</svg>
+		<main>
+			<!-- <div class="content" style="background-image: url(menu.jpg); background-size: cover;"> -->
+
+			<nav class="menu">
+				<div class="menu__item menu__item--1" data-direction="bt">
+					<div class="menu__item-inner">
+						<div class="mainmenu">
+							<a href="#" class="mainmenu__item">Уроки рисования</a>
+							<a href="#" class="mainmenu__item">форум</a>
+							<a href="#" class="mainmenu__item">поиск</a>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item menu__item--2" data-direction="lr">
+					<div class="menu__item-inner">
+						<div class="menu__item-map"></div>
+						<a href="#" class="menu__item-hoverlink">О блоге</a>
+					</div>
+				</div>
+				<div class="menu__item menu__item--3" data-direction="bt">
+					<div class="menu__item-inner">
+						<div class="sidemenu">
+							<span class="sidemenu__item-inner" style="text-transform: uppercase;letter-spacing: 0.15rem;font-size: 0.85rem;">Как нарисовать:</span>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Человека</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Волосы</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Цветы</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Аниме</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Губы</span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">Нос </span></a>
+							<a href="#" class="sidemenu__item"><span class="sidemenu__item-inner">...</span></a>
+						</div>
+					</div>
+				</div>
+				<div class="menu__item menu__item--4" data-direction="rl">
+					<div class="menu__item-inner">
+						<a href="register.html" class="menu__item-link">Регистрация/ <br> Вход</a>
+					</div>
+				</div>
+				<div class="menu__item menu__item--5" data-direction="tb">
+					<div class="menu__item-inner">
+						<p class="quote">Art is an effort to create, beside the real world, a more human world.</p>
+					</div>
+				</div>
+				<button class="action action--menu"><svg class="icon icon--menu"><use xlink:href="#icon-menu"></use></svg></button>
+				<button class="action action--close"><svg class="icon icon--close"><use xlink:href="#icon-close"></use></svg></button>
+			</nav>
+		</main>
+
+					<div class="conten" style="background-color: white; background-size: cover;">
+						<div class="menu_photo">
+				<img src="menu1.jpg"  ></div>
+
+
+	<div class="logo1">
+	<span>ART</span>
+	<span>Book</span>		
+	</div>	</div>
+			<div class="lesson"> Как нарисовать</div>
+
+
+<form action="how_draw.php" method="post">
+		<svg viewBox="0 0 0 0" style="position: absolute; z-index: -1; opacity: 0;">
+  <defs>
+    <linearGradient id="boxGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="25" y2="25">
+      <stop offset="0%"   stop-color="#65f3dc"/>
+      <stop offset="100%" stop-color="#3f776e"/>
+    </linearGradient>
+
+    <linearGradient id="lineGradient">
+      <stop offset="0%"    stop-color="#3f776e"/>
+      <stop offset="100%"  stop-color="#65f3dc"/>
+    </linearGradient>
+
+    <path id="todo__line" stroke="url(#lineGradient)" d="M21 12.3h168v0.1z"></path>
+    <path id="todo__box" stroke="url(#boxGradient)" d="M21 12.7v5c0 1.3-1 2.3-2.3 2.3H8.3C7 20 6 19 6 17.7V7.3C6 6 7 5 8.3 5h10.4C20 5 21 6 21 7.3v5.4"></path>
+    <path id="todo__check" stroke="url(#boxGradient)" d="M10 13l2 2 5-5"></path>
+    <circle id="todo__circle" cx="13.5" cy="12.5" r="10"></circle>
+  </defs>
+</svg>
+
+
+<div class="todo-list"  style="margin-left: 100px;" >
+  <label class="todo">
+    <input class="todo__state" type="checkbox" name="art[]" value="1" />
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Как нарисовать человека</div>
+    
+  </label>
+
+  <label class="todo">
+
+    <input class="todo__state" type="checkbox" name="art[]" value="2"/>
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Как нарисовать волосы</div>
+    
+  </label>
+
+  <label class="todo">
+    <input class="todo__state" type="checkbox" name="art[]" value="3"/>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    
+    <div class="todo__text">Как нарисовать цветы</div>
+  </label>
+
+</div>
+
+
+
+
+<div class="todo-list">
+  <label class="todo">
+    <input class="todo__state" type="checkbox" name="art[]" value="4"/>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Как нарисовать аниме</div>
+    
+  </label>
+
+  <label class="todo">
+
+    <input class="todo__state" type="checkbox" name="art[]" value="5"/>
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Как нарисовать человека</div>
+    
+  </label>
+
+  <label class="todo">
+    <input class="todo__state" type="checkbox" name="art[]" value="6"/>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    
+    <div class="todo__text">Как нарисовать человека</div>
+  </label>
+
+</div>
+
+<div class="todo-list">
+  <label class="todo">
+    <input class="todo__state" type="checkbox" name="art[]" value="7"/>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Как нарисовать человека</div>
+    
+  </label>
+
+  <label class="todo">
+
+    <input class="todo__state" type="checkbox" name="art[]" value="8"/>
+
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+
+    <div class="todo__text">Как нарисовать человека</div>
+    
+  </label>
+
+  <label class="todo">
+    <input class="todo__state" type="checkbox" name="art[]" value="9"/>
+    
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 25" class="todo__icon">
+      <use xlink:href="#todo__line" class="todo__line"></use>
+      <use xlink:href="#todo__box" class="todo__box"></use>
+      <use xlink:href="#todo__check" class="todo__check"></use>
+      <use xlink:href="#todo__circle" class="todo__circle"></use>
+    </svg>
+    
+    <div class="todo__text">Как нарисовать человека</div>
+  </label>
+
+</div>
+<input type="submit" value="вывод" name="sub" class="button" />
+
+</form>
+
+
+
+		<script src="../js/imagesloaded.pkgd.min.js"></script>
+		<script src="../js/TweenMax.min.js"></script>
+		<script src="../js/demo.js"></script>
+		<script src="../js/chek.js"></script>
+	</body>
+</html>
